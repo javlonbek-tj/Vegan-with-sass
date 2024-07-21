@@ -146,8 +146,11 @@ img {
     font-size: 55%; } }
 @media screen and (max-width: 50em) {
   .card {
-    height: 35rem; } }
+    max-height: 35rem; } }
 @media screen and (max-width: 37em) {
+  html {
+    font-size: 50%; }
+
   .header__container {
     flex-direction: column;
     gap: 3rem; }
@@ -161,5 +164,8 @@ img {
   .card {
     width: 40rem;
     justify-self: center; } }
+@media screen and (max-width: 25em) {
+  .card {
+    width: 35rem; } }
 
 /*# sourceMappingURL=main.css.map */
